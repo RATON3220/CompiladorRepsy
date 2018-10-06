@@ -21,7 +21,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Principal.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("views/Principal.fxml"));
         primaryStage.setTitle("COMPILADOR");
         primaryStage.setScene(new Scene(root, 960, 600));
         primaryStage.show();
